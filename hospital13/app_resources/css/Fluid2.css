@@ -1,0 +1,152 @@
+﻿
+body{
+margin:0;
+padding:0;
+line-height: 1.5em;
+background: #F2F5FE url("../design/bg2.gif") 0 0 repeat-x;
+}
+
+b{font-size: 110%;}
+em{color: red;}
+
+
+#topsection{
+     background: #0f0;
+    width: 100%;
+    background: #666699 none no-repeat 0 0;
+    color: #FFF;
+height: 90px; Height of top section
+}
+
+#topsection h1{
+margin: 0;
+padding-top: 10px;
+}
+
+#contentwrapper{
+float: left;
+width: 100%;
+}
+
+#contentcolumn {
+    border-width: thick;
+    border-color: #000080;
+    margin-left: 270px;
+    border-left-style: groove;
+}
+
+#leftcolumn {
+    float: left;
+    width: 270px; 
+    margin-left: -100%;
+    background: #a0b1c5 none no-repeat 0 0;
+   
+}
+
+#footer {
+    clear: left;
+    width: 100%;
+    background: #000080;
+    color: #FFF;
+    text-align: center;
+    padding: 3px 0;
+}
+
+#footer a {
+    color: #FFFF80;
+    background-color: #000000;
+}
+
+.innertube{
+margin: 2px;
+margin-top: 0;
+}
+
+ 
+  html, body, #map-canvas {
+        height: 95%;
+        margin: 0px;
+        padding: 0px;
+        width:auto;
+      }
+    
+        
+        .master_right
+{
+    float: right;
+    width: 10%;
+       }
+
+         .master_left
+{
+    float: left;
+    width: 50%;
+   }
+
+         .target {
+    border-width: medium;
+    margin: 2px;
+    margin-top: 0;
+    border-bottom-style: groove;
+    text-align: center;
+}
+
+     .target2 {
+    border-width: medium;
+    margin: 2px;
+    margin-top: 0;
+    border-bottom-style: groove;
+    text-align: Left;
+}
+
+  .Gridv {
+    /*Margins for inner DIV inside each column (to provide padding)*/
+    border-style: inset groove groove inset;
+    border-width: thick;
+    margin-top: 0;
+    bottom: 3%;
+    border-color: #000080;
+     margin: 0px;
+     }
+
+  .LeftDiv {
+     height: 95%;
+      background: #a0b1c5 none no-repeat 0 0;
+    }
+
+    .Tv {
+    border-color: #000080;
+    border-style: inset groove groove inset;
+    border-width: thick;
+    margin-top: 0;
+    text-align: Left;
+    background-color: #E6E6F2;
+}
+
+    
+
+      .Initial {
+    display: block;
+    padding: 4px 15px 4px 15px;
+    float: left;
+    background: url('../imgs/InitialImage.png') no-repeat right top;
+    color: Black;
+    font-weight: bold;
+}
+  .Initial:hover {
+    color: White;
+    background: url('../imgs/InitialImage.png') no-repeat right top;
+}
+  .Clicked {
+    float: left;
+    display: block;
+    background: url('../imgs/SelectedButton.png') no-repeat right top;
+    padding: 4px 15px 4px 15px;
+    color: Black;
+    font-weight: bold;
+    color: White;
+}
+
+.Lstview {
+    border:double;
+}

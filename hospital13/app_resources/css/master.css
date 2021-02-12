@@ -1,0 +1,622 @@
+﻿body 
+{
+    margin:0px;
+    padding:0px;
+     background: #F2F5FE url("../design/bg.gif") 0 0 repeat-x;
+}
+#header
+{
+    background: #0f0;
+    width: 100%;
+    height: 90px;
+    background: #666699 none no-repeat 0 0;
+    color: #FFF;
+    border-bottom-style: groove;
+    border-bottom-color: #000000;
+}
+#header_logged
+{
+    width: 100%;
+    height: 90px;
+    color: #FFFFFF;
+    left:0%
+}
+
+#logo_photo
+{
+    width:auto;
+    height:84px;
+    float:left;
+}
+
+.logo_photo2
+ {
+    left: 0.1%;
+    width: 11.8%;
+    height: 12%;
+    float: left;
+    position: fixed;
+}
+#logo_slogan
+{
+    left:22%;
+    width:auto;
+    height:84px;
+    float:left;
+    text-align: Left;
+}
+
+#logo_header
+{
+    float:left;
+    top:8Px;
+    width:100%;
+    height:25px;
+}
+#logout
+{
+    float:right;
+    top: 10Px;
+    width: 300px;
+    height: 20px;
+    text-align: Right;
+}
+#statics
+{
+    float:right;
+    top: 0Px;
+    width: 400px;
+    height: 20px;
+    text-align: center;
+}
+
+#Rightcolumn
+{
+    float:right;
+    width:15%;
+     height:550px;
+}
+
+#leftcolumn
+{
+    float:left;
+    width:15%;
+     height:550px;
+}
+
+#Rightcolumn
+{
+    float:Right;
+    width:15%;
+     height:550px;
+}
+
+#login
+{
+    width:auto;
+    height:auto;
+    top:0px;
+    float:Right;
+    }
+#adverts
+{
+    width:240px;
+    top:161Px;
+    height:80px;
+}
+
+#content
+{
+    top:100px;
+    float: left;
+    width: 80%;
+    height: 100%;
+   }
+
+#Pub_content
+{
+    top:100px;
+    left:50px;
+    float: left;
+    width: 80%;
+    height: 100%;
+   }
+
+   
+   #demo
+{
+    float: right;
+    width: 80%;
+    height: 550px;
+   }
+   
+  
+.Reports
+{
+    width:85%;
+    float: left;
+    top: 70px; /*Set top value to HeightOfTopFrameDiv*/
+    bottom: 20px; /*Set bottom value to HeightOfBottomFrameDiv*/
+    overflow: auto; 
+}
+
+.LeftMenu
+{
+    float: left;
+    left: 0px; /*Set left value to WidthOfLeftFrameDiv*/
+    right: 0px; /*Set right value to WidthOfRightFrameDiv*/
+    overflow: auto;
+    background-color: #FFFFFF;
+    height:100%;
+}
+
+.ReportsFilters
+{
+    position: fixed;
+    left: 0px; /*Set left value to WidthOfLeftFrameDiv*/
+    right: 0px; /*Set right value to WidthOfRightFrameDiv*/
+    overflow: auto;
+    width: 200px;
+}
+
+
+
+
+.Left_Menu
+{
+    border-width: thin;
+    border-style: none;
+    float: left;
+    width: 12%;
+    left: 0px; /*Set left value to WidthOfLeftFrameDiv*/
+    right: 0px; /*Set right value to WidthOfRightFrameDiv*/
+    overflow: auto;
+    height: auto;
+}
+
+Left_Menu2
+{
+    border-width: thin;
+    border-style: none;
+    float: left;
+    width: 25%;
+    left: 0px; /*Set left value to WidthOfLeftFrameDiv*/
+    right: 0px; /*Set right value to WidthOfRightFrameDiv*/
+    overflow: auto;
+    height: auto;
+}
+
+.movie
+{
+    left:25%;
+    width:84%;
+    float: left;
+    top: 70px; /*Set top value to HeightOfTopFrameDiv*/
+    bottom: 20px; /*Set bottom value to HeightOfBottomFrameDiv*/
+    overflow: auto; 
+}
+
+
+.contents
+{
+    left: 15%; /*Set left value to WidthOfLeftFrameDiv*/
+    float: none;
+    width: 100%;
+    height: 100%;
+}
+   
+   .main
+{
+    border-width: medium;
+    border-color: inherit;
+    border-style: dashed hidden dashed hidden;
+    width: 100%;
+    left: 0px;
+    right: 0px;
+    height:auto;
+}
+
+  .main_left
+{
+    border-width: medium;
+    border-color: inherit;
+    border-style: dashed hidden dashed hidden;
+    width: 100%;
+    left: 0px;
+    right: 0px;
+    height:60px;
+   }
+
+
+.top
+{
+    top: 0%;
+    width: 100%;
+    height: 30px;
+   }
+     
+     
+     .centre
+{
+    top: 31%;
+    width: 100%;
+    height: 30px;
+    line-height: normal;
+    vertical-align: baseline;
+    text-align: center;
+}
+     
+     .bottom
+{
+    top:72%;
+    width: 10%;
+    height: 30px;
+}
+
+.left_bottom
+{
+       height: 10%;
+        vertical-align: baseline;
+        text-align: center;
+}
+
+.left_content
+{
+       height: 10%;
+}
+
+/*.header
+ {
+    font-family: 'Arial Black';
+    font-size: large;
+    font-weight: bolder;
+ }*/
+ 
+ .disp
+{
+    font-family: 'Arial Black';
+    font-size: small;
+    font-weight: normal;
+    font-style: normal;
+    color: #000080;
+    text-transform: none;
+}
+
+
+.CONTHEAD
+{
+    font-family: 'Arial Black';
+    font-size: medium;
+    font-weight: normal;
+    font-style: normal;
+    color: #0000FF;
+    text-transform: capitalize;
+}
+ 
+ .photo
+{
+    width: 100%;
+    height: auto;
+}
+
+.photo_left
+{
+    width: 100%;
+    height: auto;
+}
+
+
+.mgt
+{
+    width: 70%;
+    left: 0px;
+    right: 0px;
+    height:100%;
+}
+
+.latest_menu
+{
+    border-width: thin;
+    border-style: none;
+    float: left;
+    width: 15%;
+    left: 0px; /*Set left value to WidthOfLeftFrameDiv*/
+    right: 0px; /*Set right value to WidthOfRightFrameDiv*/
+    overflow: auto;
+    height: auto;
+}
+
+.public_left
+{
+    float: left;
+    width: 22%;
+    left: 20px; /*Set left value to WidthOfLeftFrameDiv*/
+    right: 0px; /*Set right value to WidthOfRightFrameDiv*/
+    overflow: auto;
+    height: auto;
+}
+
+.public_contents
+{
+    width:80%;
+    float: left;
+    height:100%;
+        }
+
+public_img
+{
+    top:0;
+    left:22%;
+    width:100%;
+    height:100%;
+   }
+
+     .Public_bottom
+{
+    top:80%;
+    width: 100%;
+    height: 30px;
+      vertical-align: baseline;
+        text-align: center;
+}
+
+
+#footer {
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    top: 80%;
+    vertical-align: baseline;
+    position: fixed;
+}
+
+.movie_contents
+{
+    width:224px;
+    float: left;
+    height:465px;
+    }
+
+.Sec_imgpnl {
+    width: 50px;
+    float: left;
+    height: auto;
+    left: 0;
+    position: fixed;
+}
+
+Sec_namepnl {
+    width: 100px;
+    float: right;
+    height: auto;
+    left: 51px;
+    position: absolute;
+    z-index: auto;
+}
+
+ .main2
+{
+    border-width: medium;
+    border-color: inherit;
+    border-style: dashed hidden dashed hidden;
+    width: 100%;
+    left: 0px;
+    right: 0px;
+    height:100%;
+}
+
+  .bottom2
+{
+    top:72%;
+    width: 100%;
+    height: 100%;
+}
+
+  .master_left
+{
+    float: left;
+    width: 14%;
+    left: 5px; /*Set left value to WidthOfLeftFrameDiv*/
+    height: 100%;
+ }
+
+  .Tracking_header {
+    background: #0f0;
+    width: 100%;
+    height: 10%;
+    background: #666699 none no-repeat 0 0;
+    color: #FFF;
+    border-bottom-style: groove;
+    border-bottom-color: #000000;
+     position:absolute;
+}
+
+    .Tracking_left {
+    border-style: inset;
+    border-width: thick;
+    border-color: inherit;
+    top: 10%;
+    float: left;
+    width: 17%;
+    left: 0px; /*Set left value to WidthOfLeftFrameDiv*/
+    height: 88.5%;
+    position: fixed;
+    overflow: auto;
+    background-color: #FFFFFF;
+}
+
+     .Tracking_contents
+{
+     border-style: groove;
+    border-color: inherit;
+    border-width: medium;
+    top:10%;
+    left: 17%; /*Set left value to WidthOfLeftFrameDiv*/
+    float: left;
+    width: 83%;
+    height: 88.5%;
+    position:absolute;
+}
+
+    
+      .Tracking_cont_single
+{
+     border-style: groove;
+    border-color: inherit;
+    border-width: medium;
+    top:10%;
+    left: 0px; /*Set left value to WidthOfLeftFrameDiv*/
+    width: 100%;
+    height: 88.5%;
+    position:absolute;
+}
+
+       .Maps
+{
+    top:10px;
+    left: 0px; /*Set left value to WidthOfLeftFrameDiv*/
+    float: left;
+    width: 100%;
+    height: 88.5%;
+    position:absolute;
+}
+
+
+
+   .Map
+{
+    left: 0px; /*Set left value to WidthOfLeftFrameDiv*/
+    float: left;
+    width: 100%;
+    height: 100%;
+    position:absolute;
+}
+
+       
+
+
+  
+
+  .master_contents
+{
+    left: 0%; /*Set left value to WidthOfLeftFrameDiv*/
+    float: none;
+    width: AUTO;
+    height: 100%;
+    border:groove;
+}
+
+
+
+  .Master_header {
+    background: #0f0;
+    width: 100%;
+    height: 70px;
+    background: #666699 none no-repeat 0 0;
+    color: #FFF;
+    border-bottom-style: groove;
+    border-bottom-color: #000000;
+}
+
+   .master_top {
+    left: 5px; /*Set left value to WidthOfLeftFrameDiv*/
+    float: none;
+    width: AUTO;
+    height: 10%;
+    top: 3px;
+    position: fixed;
+    font-size: medium;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+    .master_bottom {
+    top: 40px;
+    left: 5px; /*Set left value to WidthOfLeftFrameDiv*/
+    float: none;
+    width: AUTO;
+    height: 10%;
+    position: fixed;
+}
+     .master_right
+{
+    float: right;
+    width: auto;
+     height: 100%;
+}
+
+      .table_left1
+{
+    float: left;
+    width: 20%;
+}
+      .table_right1
+{
+    float: left;
+    width:79%;
+}
+
+       .Tabs {
+     left: 12%;
+    float: right;
+    width: 80%;
+    position: absolute;
+    }
+
+       .scrollable {
+    left: 12%;
+    float: left;
+    width: 80%;
+    height: auto;
+    position: absolute;
+}
+
+        .Cash {
+     top: 34%;
+    float: right;
+    position: fixed;
+}
+
+         .popupControl
+{
+    background-color: #C0C0C0;
+    visibility: hidden;
+    border-style: solid;
+    border-color: Black;
+    border-width: 2px;
+}
+
+         #doc1
+{
+    left: 12%; /*Set left value to WidthOfLeftFrameDiv*/
+    float: left;
+    width: 10%;
+    position: fixed;
+    }
+
+            #doc2
+{
+    left: 25%; /*Set left value to WidthOfLeftFrameDiv*/
+    float: right;
+    width: 100%;
+    position: fixed;
+}
+
+   .tabtex
+
+   .tabtext {
+    text-align: center;
+}
+
+   
+.Reps{
+position: fixed; 
+top: 130px; /*Set top value to HeightOfTopFrameDiv*/
+bottom: 20px; /*Set bottom value to HeightOfBottomFrameDiv*/
+left: 250px; /*Set left value to WidthOfLeftFrameDiv*/
+right: -26px; /*Set right value to WidthOfRightFrameDiv*/
+overflow: auto; 
+height:auto;
+}
+
+  
