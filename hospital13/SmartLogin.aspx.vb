@@ -43,6 +43,7 @@
                                             Dim coltel As String = seldata.Item(1)
                                             Dim colusertype As String = seldata.Item(2)
                                         End If
+                                        seldata.Close()
                                     End Using
                                     If (userdepartment = "Doctor") Then
                                         Dim Tcmd As MySqlCommand = New MySqlCommand
@@ -55,6 +56,7 @@
                                             Else
                                                 Session("companyname") = "none"
                                             End If
+                                            Response.Redirect("Insertdata.aspx")
                                         End Using
                                     ElseIf (userdepartment = "Admin") Then
                                         Dim Tcmd As MySqlCommand = New MySqlCommand
@@ -116,9 +118,9 @@
 
 
         Catch ex As Exception
-            ' errorContext = "Home All"
-            ' errorMsg = ex.Message
-            Response.Redirect("~/smartsys_errors.aspx")
+            errorMsg = ex.Message
+            MsgBox(errorMsg)
+            'Response.Redirect("~/smartsys_errors.aspx")
         End Try
 
     End Sub

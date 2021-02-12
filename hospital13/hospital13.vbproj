@@ -141,6 +141,8 @@
     <Content Include="app_resources\smartsy hms %281%29.png" />
     <Content Include="app_resources\smartsy hms.png" />
     <Content Include="background1.png" />
+    <Content Include="css.css" />
+    <Content Include="hover.css" />
     <Content Include="Login.aspx" />
     <Content Include="Editdata.aspx" />
     <Content Include="Logout.aspx" />
@@ -183,6 +185,7 @@
       <DependentUpon>Masterpage.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="Module1.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
