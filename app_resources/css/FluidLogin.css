@@ -1,0 +1,33 @@
+﻿
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #333333 url('../DESIGN/bg4.png') repeat-x 0 0;
+}
+
+  .Logindiv {
+    border-style: inset;
+    border-width: thick;
+    text-align: left;
+    width: 450px;
+    height: 290px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:black;
+}
+
+    .LoginSLOGAN {
+     text-align: center;
+     width: 650px;
+     margin-left: auto;
+     margin-right: auto;
+     }
+
+     .Loginfooter {
+     text-align: center;
+     width: 650px;
+     margin-left: auto;
+     margin-right: auto;
+     color:white;
+     }
+   

@@ -1,0 +1,205 @@
+﻿body, div, p, ul, li {
+    padding: 0;
+    margin: 0;
+    }
+body {  
+    background-color: rgb(237,2357,2357);
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.clear 
+{
+    clear: both;
+}
+.wrapper
+{
+    width: 950px;
+    margin:auto ;
+}
+.content
+{
+    width: 100%;
+    background-color: rgb(254, 254, 254);
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    min-height: 400px;
+}
+.menu{
+    background-color: rgb(10, 110, 178);
+    width: 100%;
+    margin: 0px 0px 10px;
+    padding: 0px;
+    height: 40px;
+    color: rgb(243, 243, 243);
+    border-radius: 5px 5px 5px;
+}
+.navigation_first_item{
+    border-left:0px;
+    border-radius: 5px 0 0 5px;
+}
+.navitem_s{
+    float: left;
+    border-right: 1px solid rgb(10, 85, 125);
+    border-left:1px solid rgb(67, 153, 200);
+    height:40px;
+    background-color: rgb(14, 79, 114);
+}
+.menu ul li{
+    float: left;
+    display:block;
+    list-style:none;
+    border-right: 1px solid rgb(10, 85, 125); 
+        border-left:1px solid rgb(67, 153, 200);
+     
+}
+.menu ul li navigation_first_item:hover{
+    border-radius:5px 0px 0px 5px;
+}
+.menu ul li a {
+    font-size:13px;
+    font-weight: bold;
+    line-height: 40px;
+    padding: 8px 20px;
+    color:rgb(255,255,255);
+    text-decoration:none;
+
+
+}
+.menu ul li:hover{
+    background-color:rgb(14, 79,114);
+    border-right:1px solid rgb(14, 89, 130);
+}
+.clear 
+{
+    clear: both;
+}
+.footer{
+    height: 50px;
+    background-color:#181536;
+    color:snow;
+    border-radius: 5px 5px 5px 5px;
+}
+    .footer h2 {
+        padding: 15px;
+        text-align: center;
+    }
+    * {box-sizing: border-box}
+body {font-family: "Lato", sans-serif;}
+
+/* Style the tab */
+.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 5%;
+  height: 300px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  width: 70%;
+  border-left: none;
+  height: 300px;
+  display: none;
+}
+
+/* Clear floats after the tab */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.mySidenav a {
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+.mySidenav a:hover {
+  left: 0;
+}
+
+.about {
+  top: 20px;
+  background-color: #4CAF50;
+}
+
+.blog {
+  top: 80px;
+  background-color: #2196F3;
+}
+
+.projects {
+  top: 140px;
+  background-color: #f44336;
+}
+
+.contact {
+  top: 200px;
+  background-color: #555
+}
+
+body {
+  margin: 0;
+  background-color: #f1f1f1;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+  background-color: #333;
+  position: fixed;
+  top: -50px;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;

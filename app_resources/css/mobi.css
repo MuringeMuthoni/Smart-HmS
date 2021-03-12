@@ -1,0 +1,17 @@
+﻿body {
+    background-position:center;
+    margin:0px;
+    padding:0px;
+    font-size:13px;
+       
+}
+
+.wrapper{
+    width: 800px;
+    height:auto;
+    min-height:400px;
+    margin:auto;
+    overflow:hidden;
+    cursor:default;
+     font-size:15px;
+}

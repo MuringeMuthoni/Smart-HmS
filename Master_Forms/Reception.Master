@@ -1,0 +1,153 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Reception.master.vb" Inherits="CLOUD_HIMS.Reception" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Smartsys-HIMS - Receiption</title>
+    <link href="../app_resources/css/menu.css" rel="stylesheet" />
+    <link href="../app_resources/css/popup.css" rel="stylesheet" />
+    <link href="../app_resources/css/sidebar.css" rel="stylesheet" />
+    <script src="../../scripts/master-theme.js"></script>
+    <script src="../../scripts/master-theme.js"></script>
+   
+</head>
+<body>
+    <form id="form1" runat="server">
+       <div id="DVMain" style="margin-left:2px;width:100%;height:600px;" > 
+           <div id="topsection" style="margin-bottom:10px">
+              <div id="DVMain2" style="width:10%;background-color:transparent;height:90px;float:left;margin-left:0px;margin-top:0px" >
+                   <img src="../app_resources/DESIGN/smart_logo.png"  style="height:90px;margin-top:1px;margin-left:5px"/>   
+                   <div style="margin-top:1px">
+                      <span style="font-size:30px;cursor:pointer;" onclick="openNav()">&#9776; </span>
+                   </div>                   
+               </div>
+
+                  <div class="innertube" style="width:89%;height:87px;float:right;border-top-width:1px;border-style:none;border-width:3px;border-color:aliceblue;margin-top:2px;background:#FFFFFF;margin-left:1px">                                                   
+                     
+                     <div style="width:60%; float:left">
+                              <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" CssClass="nav" style="float:left;margin-left:2px;margin-top:2px;width:500px">
+                                    <LevelMenuItemStyles>  
+                                        <asp:MenuItemStyle CssClass="ParentMenu" />  
+                                        <asp:MenuItemStyle CssClass="ChildMenu" />  
+                                        <asp:MenuItemStyle CssClass="ChildMenu" />  
+                                    </LevelMenuItemStyles>  
+                                 <StaticSelectedStyle CssClass="selected" />  
+                            </asp:Menu>
+                      </div>
+
+
+                      <div style="width:40%; float:right">
+                          <div id ="logout" style="font-size: medium; font-weight: bold;  text-align: right; color: black;margin-right:20px;margin-top:5px">
+                                          <span ><asp:Label ID="lblclient" runat="server"  Font-Size="large"></asp:Label>  </span> 
+                                       <br />                                           
+                                            <asp:LoginName ID="LoginName1" runat="server" Font-Size="Small"/>   &nbsp;  |     &nbsp; 
+                                             <span ><asp:Label ID="lbldepart" runat="server"  Font-Size="Small"></asp:Label>  </span>    <br />      
+                                             <asp:LoginStatus ID="LoginStatus1" runat="server" LogoutText="Log Out" ForeColor="black" LogoutPageUrl="~/default.aspx" Font-Size="Small" /><br />
+                                                   
+                                        </div>  
+
+
+                      
+
+                   </div>
+                                                               
+
+                    </div>
+            </div>
+                   
+
+          
+           
+
+           <div id="mySidenav" class="sidenav">
+                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                     <button id="btndash" type="button"  runat="server"  class="buttons" onclick="dashboard()"><img src="../app_resources/DESIGN/h.png" style="height:30px;width:30px"    /> &nbsp;&nbsp;Dashboard</button>      <br />                              
+                       <button id="BtnNewUser" type="button"  runat="server" class="buttons" onclick="patience_center()">  <img src="../app_resources/imgs/bullet.png" style="height:20px;width:20px"    /> &nbsp;&nbsp;New Patient</button>      <br /> 
+                       <button id="BtnMgtUsers" type="button"  runat="server" class="buttons" onclick="AddQueue()"  ><img src="../app_resources/imgs/bullet.png" style="height:20px;width:20px"    /> &nbsp;&nbsp;Queue</button>      <br /> 
+                       <button id="Btnapprove" type="button" runat="server" class="buttons" onclick="consultation()"><img src="../app_resources/imgs/bullet.png" style="height:20px;width:20px"    /> &nbsp;Receive Funds</button>      <br />                              
+                       <button id="Btnvinvoices" type="button"  runat="server" class="buttons" onclick="prescriptions()"><img src="../app_resources/imgs/bullet.png" style="height:20px;width:20px"    /> &nbsp;Meds Funds</button>      <br />                              
+                        <button id="Button1" type="button"  runat="server" class="buttons" onclick="labs()"><img src="../app_resources/imgs/bullet.png" style="height:20px;width:20px"    /> &nbsp;Labs Payment</button>      <br />                              
+                             
+ 
+
+        
+            </div>
+
+    
+
+           <div id="main">             
+             
+                      <div id="contents" style="float:right;margin-left:100px; width:98%;margin-top:1px;overflow:hidden;border-top-style:outset;background-color:#b3cae0"> 
+                                    <div class="innertube">                               
+                                         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                         </asp:ContentPlaceHolder>
+                                    </div>
+
+                         </div>
+
+            </div>
+
+             
+                    
+           
+                                            
+                                           
+               <%-- <div id="footer" style="margin-bottom:10px">
+                     <a href="http://www.smartsysltcd.co.ke" target="_blank">Cloud - HIMS </a>| © 2021
+                              | All Rights Reserved
+                     <br />
+                 </div>--%>
+                                
+                    
+        </div>
+
+        
+ 
+                
+
+        <script type = "text/javascript">
+
+            function dashboard() {
+                var url = "./../Dashboards/dashboard_receiption.aspx?";
+                var myWindow = window.open(url, '_self');
+                
+            }
+
+            function patience_center() {             
+                window.open("./../Forms/Patient_New.aspx?", "_self");
+                
+            }
+
+
+            function AddQueue() {
+                window.open("./../Forms/queue.aspx?", "_self");
+              
+               
+            }
+
+            function consultation() {
+                var url = "./../Forms/receive_funds.aspx?";
+                var myWindow = window.open(url, '_self');
+               
+            }
+
+            function prescriptions() {
+                var url = "./../Forms/meds_pay.aspx?";
+                var myWindow = window.open(url, '_self');
+               
+            }
+
+            function labs() {
+                var url = "./../Forms/labs_pay.aspx?";
+                var myWindow = window.open(url, '_self');
+              
+            }
+
+
+        </script>
+
+    </form>
+</body>
+</html>
